@@ -15,32 +15,32 @@
             "type": "function"
         }
     ],
-    "metadata": "{\"compiler\":{\"version\":\"0.8.9+commit.e5eed63a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"string\",\"name\":\"newMessage\",\"type\":\"string\"}],\"name\":\"setMessage\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/meme/Git/Inbox/contracts/Inbox.sol\":\"Inbox\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/meme/Git/Inbox/contracts/Inbox.sol\":{\"keccak256\":\"0xa953d570aefacd2fa946d1dc3081a4bc618f585b7cdfa41e56a22bc96007aa39\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://ecb5f55bf70b7a96e1d3c5387640582b589d2458ef58e6ec712b6570612fc03d\",\"dweb:/ipfs/QmV37PC1C6K9sAjxwvSpG6z3F8CPHFgDwUBNj9zVqZLyhH\"]}},\"version\":1}",
+    "metadata": "{\"compiler\":{\"version\":\"0.8.9+commit.e5eed63a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"string\",\"name\":\"newMessage\",\"type\":\"string\"}],\"name\":\"setMessage\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/meme/Git/Inbox/Contracts/Inbox.sol\":\"Inbox\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/meme/Git/Inbox/Contracts/Inbox.sol\":{\"keccak256\":\"0x45fc54bf81a32b7940e535151ce2974c43cc7da21d310a8a09cfd86bba5e1f67\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://0e2c97935e15c451a1ec850df2fa50fb14b92f1e59d05fea6d4199e7907e6f5f\",\"dweb:/ipfs/QmfMgLYH3BUtTLGaoZ9gtsfQR7gCcPnPhZh3gQH2y9ZcEY\"]}},\"version\":1}",
     "bytecode": "",
     "deployedBytecode": "",
     "sourceMap": "",
     "deployedSourceMap": "",
-    "sourcePath": "/Users/meme/Git/Inbox/contracts/Inbox.sol",
+    "sourcePath": "/Users/meme/Git/Inbox/Contracts/Inbox.sol",
     "compiler": {
         "name": "solc",
         "version": "0.8.9+commit.e5eed63a"
     },
     "ast": {
-        "absolutePath": "/Users/meme/Git/Inbox/contracts/Inbox.sol",
+        "absolutePath": "/Users/meme/Git/Inbox/Contracts/Inbox.sol",
         "exportedSymbols": {
             "Inbox": [
-                43
+                8
             ],
             "InboxContract": [
-                69
+                34
             ]
         },
-        "id": 70,
+        "id": 35,
         "license": "GPL-3.0",
         "nodeType": "SourceUnit",
         "nodes": [
             {
-                "id": 36,
+                "id": 1,
                 "literals": [
                     "solidity",
                     ">=",
@@ -51,16 +51,16 @@
                     ".0"
                 ],
                 "nodeType": "PragmaDirective",
-                "src": "36:32:1"
+                "src": "36:32:0"
             },
             {
-                "id": 37,
+                "id": 2,
                 "literals": [
                     "abicoder",
                     "v1"
                 ],
                 "nodeType": "PragmaDirective",
-                "src": "69:19:1"
+                "src": "69:19:0"
             },
             {
                 "abstract": true,
@@ -69,36 +69,36 @@
                 "contractDependencies": [],
                 "contractKind": "contract",
                 "fullyImplemented": false,
-                "id": 43,
+                "id": 8,
                 "linearizedBaseContracts": [
-                    43
+                    8
                 ],
                 "name": "Inbox",
-                "nameLocation": "108:5:1",
+                "nameLocation": "108:5:0",
                 "nodeType": "ContractDefinition",
                 "nodes": [
                     {
                         "functionSelector": "368b8772",
-                        "id": 42,
+                        "id": 7,
                         "implemented": false,
                         "kind": "function",
                         "modifiers": [],
                         "name": "setMessage",
-                        "nameLocation": "129:10:1",
+                        "nameLocation": "129:10:0",
                         "nodeType": "FunctionDefinition",
                         "parameters": {
-                            "id": 40,
+                            "id": 5,
                             "nodeType": "ParameterList",
                             "parameters": [
                                 {
                                     "constant": false,
-                                    "id": 39,
+                                    "id": 4,
                                     "mutability": "mutable",
                                     "name": "newMessage",
-                                    "nameLocation": "154:10:1",
+                                    "nameLocation": "154:10:0",
                                     "nodeType": "VariableDeclaration",
-                                    "scope": 42,
-                                    "src": "140:24:1",
+                                    "scope": 7,
+                                    "src": "140:24:0",
                                     "stateVariable": false,
                                     "storageLocation": "memory",
                                     "typeDescriptions": {
@@ -106,10 +106,10 @@
                                         "typeString": "string"
                                     },
                                     "typeName": {
-                                        "id": 38,
+                                        "id": 3,
                                         "name": "string",
                                         "nodeType": "ElementaryTypeName",
-                                        "src": "140:6:1",
+                                        "src": "140:6:0",
                                         "typeDescriptions": {
                                             "typeIdentifier": "t_string_storage_ptr",
                                             "typeString": "string"
@@ -118,23 +118,23 @@
                                     "visibility": "internal"
                                 }
                             ],
-                            "src": "139:26:1"
+                            "src": "139:26:0"
                         },
                         "returnParameters": {
-                            "id": 41,
+                            "id": 6,
                             "nodeType": "ParameterList",
                             "parameters": [],
-                            "src": "180:0:1"
+                            "src": "180:0:0"
                         },
-                        "scope": 43,
-                        "src": "120:61:1",
+                        "scope": 8,
+                        "src": "120:61:0",
                         "stateMutability": "nonpayable",
                         "virtual": true,
                         "visibility": "public"
                     }
                 ],
-                "scope": 70,
-                "src": "90:93:1",
+                "scope": 35,
+                "src": "90:93:0",
                 "usedErrors": []
             },
             {
@@ -142,40 +142,40 @@
                 "baseContracts": [
                     {
                         "baseName": {
-                            "id": 44,
+                            "id": 9,
                             "name": "Inbox",
                             "nodeType": "IdentifierPath",
-                            "referencedDeclaration": 43,
-                            "src": "212:5:1"
+                            "referencedDeclaration": 8,
+                            "src": "210:5:0"
                         },
-                        "id": 45,
+                        "id": 10,
                         "nodeType": "InheritanceSpecifier",
-                        "src": "212:5:1"
+                        "src": "210:5:0"
                     }
                 ],
                 "canonicalName": "InboxContract",
                 "contractDependencies": [],
                 "contractKind": "contract",
                 "fullyImplemented": true,
-                "id": 69,
+                "id": 34,
                 "linearizedBaseContracts": [
-                    69,
-                    43
+                    34,
+                    8
                 ],
                 "name": "InboxContract",
-                "nameLocation": "195:13:1",
+                "nameLocation": "193:13:0",
                 "nodeType": "ContractDefinition",
                 "nodes": [
                     {
                         "constant": false,
                         "functionSelector": "e21f37ce",
-                        "id": 47,
+                        "id": 12,
                         "mutability": "mutable",
                         "name": "message",
-                        "nameLocation": "239:7:1",
+                        "nameLocation": "237:7:0",
                         "nodeType": "VariableDeclaration",
-                        "scope": 69,
-                        "src": "224:22:1",
+                        "scope": 34,
+                        "src": "222:22:0",
                         "stateVariable": true,
                         "storageLocation": "default",
                         "typeDescriptions": {
@@ -183,10 +183,10 @@
                             "typeString": "string"
                         },
                         "typeName": {
-                            "id": 46,
+                            "id": 11,
                             "name": "string",
                             "nodeType": "ElementaryTypeName",
-                            "src": "224:6:1",
+                            "src": "222:6:0",
                             "typeDescriptions": {
                                 "typeIdentifier": "t_string_storage_ptr",
                                 "typeString": "string"
@@ -196,24 +196,24 @@
                     },
                     {
                         "body": {
-                            "id": 56,
+                            "id": 21,
                             "nodeType": "Block",
-                            "src": "297:44:1",
+                            "src": "295:44:0",
                             "statements": [
                                 {
                                     "expression": {
-                                        "id": 54,
+                                        "id": 19,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
                                         "lValueRequested": false,
                                         "leftHandSide": {
-                                            "id": 52,
+                                            "id": 17,
                                             "name": "message",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [],
-                                            "referencedDeclaration": 47,
-                                            "src": "308:7:1",
+                                            "referencedDeclaration": 12,
+                                            "src": "306:7:0",
                                             "typeDescriptions": {
                                                 "typeIdentifier": "t_string_storage",
                                                 "typeString": "string storage ref"
@@ -222,30 +222,30 @@
                                         "nodeType": "Assignment",
                                         "operator": "=",
                                         "rightHandSide": {
-                                            "id": 53,
+                                            "id": 18,
                                             "name": "initialMessage",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [],
-                                            "referencedDeclaration": 49,
-                                            "src": "319:14:1",
+                                            "referencedDeclaration": 14,
+                                            "src": "317:14:0",
                                             "typeDescriptions": {
                                                 "typeIdentifier": "t_string_memory_ptr",
                                                 "typeString": "string memory"
                                             }
                                         },
-                                        "src": "308:25:1",
+                                        "src": "306:25:0",
                                         "typeDescriptions": {
                                             "typeIdentifier": "t_string_storage",
                                             "typeString": "string storage ref"
                                         }
                                     },
-                                    "id": 55,
+                                    "id": 20,
                                     "nodeType": "ExpressionStatement",
-                                    "src": "308:25:1"
+                                    "src": "306:25:0"
                                 }
                             ]
                         },
-                        "id": 57,
+                        "id": 22,
                         "implemented": true,
                         "kind": "constructor",
                         "modifiers": [],
@@ -253,18 +253,18 @@
                         "nameLocation": "-1:-1:-1",
                         "nodeType": "FunctionDefinition",
                         "parameters": {
-                            "id": 50,
+                            "id": 15,
                             "nodeType": "ParameterList",
                             "parameters": [
                                 {
                                     "constant": false,
-                                    "id": 49,
+                                    "id": 14,
                                     "mutability": "mutable",
                                     "name": "initialMessage",
-                                    "nameLocation": "281:14:1",
+                                    "nameLocation": "279:14:0",
                                     "nodeType": "VariableDeclaration",
-                                    "scope": 57,
-                                    "src": "267:28:1",
+                                    "scope": 22,
+                                    "src": "265:28:0",
                                     "stateVariable": false,
                                     "storageLocation": "memory",
                                     "typeDescriptions": {
@@ -272,10 +272,10 @@
                                         "typeString": "string"
                                     },
                                     "typeName": {
-                                        "id": 48,
+                                        "id": 13,
                                         "name": "string",
                                         "nodeType": "ElementaryTypeName",
-                                        "src": "267:6:1",
+                                        "src": "265:6:0",
                                         "typeDescriptions": {
                                             "typeIdentifier": "t_string_storage_ptr",
                                             "typeString": "string"
@@ -284,43 +284,43 @@
                                     "visibility": "internal"
                                 }
                             ],
-                            "src": "266:30:1"
+                            "src": "264:30:0"
                         },
                         "returnParameters": {
-                            "id": 51,
+                            "id": 16,
                             "nodeType": "ParameterList",
                             "parameters": [],
-                            "src": "297:0:1"
+                            "src": "295:0:0"
                         },
-                        "scope": 69,
-                        "src": "254:87:1",
+                        "scope": 34,
+                        "src": "252:87:0",
                         "stateMutability": "nonpayable",
                         "virtual": false,
                         "visibility": "public"
                     },
                     {
                         "baseFunctions": [
-                            42
+                            7
                         ],
                         "body": {
-                            "id": 67,
+                            "id": 32,
                             "nodeType": "Block",
-                            "src": "411:39:1",
+                            "src": "409:39:0",
                             "statements": [
                                 {
                                     "expression": {
-                                        "id": 65,
+                                        "id": 30,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
                                         "lValueRequested": false,
                                         "leftHandSide": {
-                                            "id": 63,
+                                            "id": 28,
                                             "name": "message",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [],
-                                            "referencedDeclaration": 47,
-                                            "src": "422:7:1",
+                                            "referencedDeclaration": 12,
+                                            "src": "420:7:0",
                                             "typeDescriptions": {
                                                 "typeIdentifier": "t_string_storage",
                                                 "typeString": "string storage ref"
@@ -329,56 +329,56 @@
                                         "nodeType": "Assignment",
                                         "operator": "=",
                                         "rightHandSide": {
-                                            "id": 64,
+                                            "id": 29,
                                             "name": "newMessage",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [],
-                                            "referencedDeclaration": 59,
-                                            "src": "432:10:1",
+                                            "referencedDeclaration": 24,
+                                            "src": "430:10:0",
                                             "typeDescriptions": {
                                                 "typeIdentifier": "t_string_memory_ptr",
                                                 "typeString": "string memory"
                                             }
                                         },
-                                        "src": "422:20:1",
+                                        "src": "420:20:0",
                                         "typeDescriptions": {
                                             "typeIdentifier": "t_string_storage",
                                             "typeString": "string storage ref"
                                         }
                                     },
-                                    "id": 66,
+                                    "id": 31,
                                     "nodeType": "ExpressionStatement",
-                                    "src": "422:20:1"
+                                    "src": "420:20:0"
                                 }
                             ]
                         },
                         "functionSelector": "368b8772",
-                        "id": 68,
+                        "id": 33,
                         "implemented": true,
                         "kind": "function",
                         "modifiers": [],
                         "name": "setMessage",
-                        "nameLocation": "357:10:1",
+                        "nameLocation": "355:10:0",
                         "nodeType": "FunctionDefinition",
                         "overrides": {
-                            "id": 61,
+                            "id": 26,
                             "nodeType": "OverrideSpecifier",
                             "overrides": [],
-                            "src": "403:8:1"
+                            "src": "401:8:0"
                         },
                         "parameters": {
-                            "id": 60,
+                            "id": 25,
                             "nodeType": "ParameterList",
                             "parameters": [
                                 {
                                     "constant": false,
-                                    "id": 59,
+                                    "id": 24,
                                     "mutability": "mutable",
                                     "name": "newMessage",
-                                    "nameLocation": "384:10:1",
+                                    "nameLocation": "382:10:0",
                                     "nodeType": "VariableDeclaration",
-                                    "scope": 68,
-                                    "src": "370:24:1",
+                                    "scope": 33,
+                                    "src": "368:24:0",
                                     "stateVariable": false,
                                     "storageLocation": "memory",
                                     "typeDescriptions": {
@@ -386,10 +386,10 @@
                                         "typeString": "string"
                                     },
                                     "typeName": {
-                                        "id": 58,
+                                        "id": 23,
                                         "name": "string",
                                         "nodeType": "ElementaryTypeName",
-                                        "src": "370:6:1",
+                                        "src": "368:6:0",
                                         "typeDescriptions": {
                                             "typeIdentifier": "t_string_storage_ptr",
                                             "typeString": "string"
@@ -398,27 +398,27 @@
                                     "visibility": "internal"
                                 }
                             ],
-                            "src": "368:27:1"
+                            "src": "366:27:0"
                         },
                         "returnParameters": {
-                            "id": 62,
+                            "id": 27,
                             "nodeType": "ParameterList",
                             "parameters": [],
-                            "src": "411:0:1"
+                            "src": "409:0:0"
                         },
-                        "scope": 69,
-                        "src": "348:102:1",
+                        "scope": 34,
+                        "src": "346:102:0",
                         "stateMutability": "nonpayable",
                         "virtual": false,
                         "visibility": "public"
                     }
                 ],
-                "scope": 70,
-                "src": "186:266:1",
+                "scope": 35,
+                "src": "184:266:0",
                 "usedErrors": []
             }
         ],
-        "src": "36:416:1"
+        "src": "36:414:0"
     },
     "functionHashes": {
         "setMessage(string)": "368b8772"

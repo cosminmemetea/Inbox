@@ -5,7 +5,6 @@ pragma abicoder v1;
 abstract contract Inbox {
     function setMessage(string memory newMessage) public virtual;
 }
-
 contract InboxContract is Inbox{
      string  public message;
 
