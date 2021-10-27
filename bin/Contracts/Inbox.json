@@ -1,0 +1,427 @@
+{
+    "contractName": "Inbox",
+    "abi": [
+        {
+            "inputs": [
+                {
+                    "internalType": "string",
+                    "name": "newMessage",
+                    "type": "string"
+                }
+            ],
+            "name": "setMessage",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.9+commit.e5eed63a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"string\",\"name\":\"newMessage\",\"type\":\"string\"}],\"name\":\"setMessage\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/meme/Git/Inbox/contracts/Inbox.sol\":\"Inbox\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/meme/Git/Inbox/contracts/Inbox.sol\":{\"keccak256\":\"0xa953d570aefacd2fa946d1dc3081a4bc618f585b7cdfa41e56a22bc96007aa39\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://ecb5f55bf70b7a96e1d3c5387640582b589d2458ef58e6ec712b6570612fc03d\",\"dweb:/ipfs/QmV37PC1C6K9sAjxwvSpG6z3F8CPHFgDwUBNj9zVqZLyhH\"]}},\"version\":1}",
+    "bytecode": "",
+    "deployedBytecode": "",
+    "sourceMap": "",
+    "deployedSourceMap": "",
+    "sourcePath": "/Users/meme/Git/Inbox/contracts/Inbox.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.9+commit.e5eed63a"
+    },
+    "ast": {
+        "absolutePath": "/Users/meme/Git/Inbox/contracts/Inbox.sol",
+        "exportedSymbols": {
+            "Inbox": [
+                43
+            ],
+            "InboxContract": [
+                69
+            ]
+        },
+        "id": 70,
+        "license": "GPL-3.0",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 36,
+                "literals": [
+                    "solidity",
+                    ">=",
+                    "0.4",
+                    ".16",
+                    "<",
+                    "0.9",
+                    ".0"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "36:32:1"
+            },
+            {
+                "id": 37,
+                "literals": [
+                    "abicoder",
+                    "v1"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "69:19:1"
+            },
+            {
+                "abstract": true,
+                "baseContracts": [],
+                "canonicalName": "Inbox",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": false,
+                "id": 43,
+                "linearizedBaseContracts": [
+                    43
+                ],
+                "name": "Inbox",
+                "nameLocation": "108:5:1",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "functionSelector": "368b8772",
+                        "id": 42,
+                        "implemented": false,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "setMessage",
+                        "nameLocation": "129:10:1",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 40,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 39,
+                                    "mutability": "mutable",
+                                    "name": "newMessage",
+                                    "nameLocation": "154:10:1",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 42,
+                                    "src": "140:24:1",
+                                    "stateVariable": false,
+                                    "storageLocation": "memory",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_string_memory_ptr",
+                                        "typeString": "string"
+                                    },
+                                    "typeName": {
+                                        "id": 38,
+                                        "name": "string",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "140:6:1",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage_ptr",
+                                            "typeString": "string"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "139:26:1"
+                        },
+                        "returnParameters": {
+                            "id": 41,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "180:0:1"
+                        },
+                        "scope": 43,
+                        "src": "120:61:1",
+                        "stateMutability": "nonpayable",
+                        "virtual": true,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 70,
+                "src": "90:93:1",
+                "usedErrors": []
+            },
+            {
+                "abstract": false,
+                "baseContracts": [
+                    {
+                        "baseName": {
+                            "id": 44,
+                            "name": "Inbox",
+                            "nodeType": "IdentifierPath",
+                            "referencedDeclaration": 43,
+                            "src": "212:5:1"
+                        },
+                        "id": 45,
+                        "nodeType": "InheritanceSpecifier",
+                        "src": "212:5:1"
+                    }
+                ],
+                "canonicalName": "InboxContract",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 69,
+                "linearizedBaseContracts": [
+                    69,
+                    43
+                ],
+                "name": "InboxContract",
+                "nameLocation": "195:13:1",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "constant": false,
+                        "functionSelector": "e21f37ce",
+                        "id": 47,
+                        "mutability": "mutable",
+                        "name": "message",
+                        "nameLocation": "239:7:1",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 69,
+                        "src": "224:22:1",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_string_storage",
+                            "typeString": "string"
+                        },
+                        "typeName": {
+                            "id": 46,
+                            "name": "string",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "224:6:1",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_string_storage_ptr",
+                                "typeString": "string"
+                            }
+                        },
+                        "visibility": "public"
+                    },
+                    {
+                        "body": {
+                            "id": 56,
+                            "nodeType": "Block",
+                            "src": "297:44:1",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "id": 54,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftHandSide": {
+                                            "id": 52,
+                                            "name": "message",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 47,
+                                            "src": "308:7:1",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_string_storage",
+                                                "typeString": "string storage ref"
+                                            }
+                                        },
+                                        "nodeType": "Assignment",
+                                        "operator": "=",
+                                        "rightHandSide": {
+                                            "id": 53,
+                                            "name": "initialMessage",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 49,
+                                            "src": "319:14:1",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_string_memory_ptr",
+                                                "typeString": "string memory"
+                                            }
+                                        },
+                                        "src": "308:25:1",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage",
+                                            "typeString": "string storage ref"
+                                        }
+                                    },
+                                    "id": 55,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "308:25:1"
+                                }
+                            ]
+                        },
+                        "id": 57,
+                        "implemented": true,
+                        "kind": "constructor",
+                        "modifiers": [],
+                        "name": "",
+                        "nameLocation": "-1:-1:-1",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 50,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 49,
+                                    "mutability": "mutable",
+                                    "name": "initialMessage",
+                                    "nameLocation": "281:14:1",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 57,
+                                    "src": "267:28:1",
+                                    "stateVariable": false,
+                                    "storageLocation": "memory",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_string_memory_ptr",
+                                        "typeString": "string"
+                                    },
+                                    "typeName": {
+                                        "id": 48,
+                                        "name": "string",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "267:6:1",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage_ptr",
+                                            "typeString": "string"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "266:30:1"
+                        },
+                        "returnParameters": {
+                            "id": 51,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "297:0:1"
+                        },
+                        "scope": 69,
+                        "src": "254:87:1",
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "public"
+                    },
+                    {
+                        "baseFunctions": [
+                            42
+                        ],
+                        "body": {
+                            "id": 67,
+                            "nodeType": "Block",
+                            "src": "411:39:1",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "id": 65,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftHandSide": {
+                                            "id": 63,
+                                            "name": "message",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 47,
+                                            "src": "422:7:1",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_string_storage",
+                                                "typeString": "string storage ref"
+                                            }
+                                        },
+                                        "nodeType": "Assignment",
+                                        "operator": "=",
+                                        "rightHandSide": {
+                                            "id": 64,
+                                            "name": "newMessage",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 59,
+                                            "src": "432:10:1",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_string_memory_ptr",
+                                                "typeString": "string memory"
+                                            }
+                                        },
+                                        "src": "422:20:1",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage",
+                                            "typeString": "string storage ref"
+                                        }
+                                    },
+                                    "id": 66,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "422:20:1"
+                                }
+                            ]
+                        },
+                        "functionSelector": "368b8772",
+                        "id": 68,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "setMessage",
+                        "nameLocation": "357:10:1",
+                        "nodeType": "FunctionDefinition",
+                        "overrides": {
+                            "id": 61,
+                            "nodeType": "OverrideSpecifier",
+                            "overrides": [],
+                            "src": "403:8:1"
+                        },
+                        "parameters": {
+                            "id": 60,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 59,
+                                    "mutability": "mutable",
+                                    "name": "newMessage",
+                                    "nameLocation": "384:10:1",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 68,
+                                    "src": "370:24:1",
+                                    "stateVariable": false,
+                                    "storageLocation": "memory",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_string_memory_ptr",
+                                        "typeString": "string"
+                                    },
+                                    "typeName": {
+                                        "id": 58,
+                                        "name": "string",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "370:6:1",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage_ptr",
+                                            "typeString": "string"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "368:27:1"
+                        },
+                        "returnParameters": {
+                            "id": 62,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "411:0:1"
+                        },
+                        "scope": 69,
+                        "src": "348:102:1",
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 70,
+                "src": "186:266:1",
+                "usedErrors": []
+            }
+        ],
+        "src": "36:416:1"
+    },
+    "functionHashes": {
+        "setMessage(string)": "368b8772"
+    },
+    "gasEstimates": null
+}
