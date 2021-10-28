@@ -6,7 +6,7 @@ abstract contract Inbox {
     function setMessage(string memory newMessage) public virtual;
 }
 contract InboxContract is Inbox{
-     string  public message;
+     string public message;
 
      constructor (string memory initialMessage) {
          message  = initialMessage;
