@@ -11,9 +11,7 @@ beforeEach(async () => {
     // use one of the accounts to deploy the contract
     console.log('Compiled intrface is: --- ' + interface);
     console.log('Compiled bytecode is: --- ' + bytecode);
-    inbox = await new web3.eth.Contract(interface)
-    .deploy({data: bytecode, arguments:['Hi there']})
-    .send({from: accounts[0], gas: '1000000'});
+    inbox = await new web3.eth.Contract(interface).deploy({data: bytecode, arguments:['Hi there']}).send({from: accounts[0], gas: '1000000'});
 });
 
 describe('Deploys a contract', () => {
